@@ -1,0 +1,63 @@
+<section class="blk-peel" id="lindyce-peel">
+  <div class="wrap">
+    <div class="blk-peel__cab" data-reveal>
+      <p class="blk-peel__eyebrow">Só tem aqui</p>
+      <h2 class="blk-peel__titulo">Lindyce Peel®, o peeling que leva o nome da casa</h2>
+      <p class="blk-peel__lead" data-acende>Um protocolo próprio de renovação da pele, feito com agente químico ou físico conforme a pele de cada paciente. Existe em duas versões: uma para o rosto, outra para o corpo.</p>
+    </div>
+    <div class="blk-peel__corpo">
+      <div class="blk-peel__cartoes">
+        <article class="blk-peel__cartao" data-reveal>
+          <span class="blk-peel__icone"><!--icone:rosto--></span>
+          <h3>No rosto</h3>
+          <ul>
+            <li>clareia manchas</li>
+            <li>reduz a oleosidade</li>
+            <li>devolve firmeza</li>
+            <li>ajuda na cicatrização</li>
+            <li>rejuvenesce a pele</li>
+          </ul>
+          <div class="blk-peel__motivo"><!--motivo:accent--></div>
+        </article>
+        <article class="blk-peel__cartao" data-reveal style="--d:120ms">
+          <span class="blk-peel__icone"><!--icone:pele--></span>
+          <h3>No corpo</h3>
+          <ul>
+            <li>clareia manchas</li>
+            <li>devolve firmeza</li>
+            <li>ajuda na cicatrização</li>
+          </ul>
+          <div class="blk-peel__motivo"><!--motivo:accent--></div>
+        </article>
+      </div>
+      <figure class="blk-peel__foto" data-reveal>
+        <!--foto:midia/f04.jpg|Sala de procedimentos do Espaço Lindyce, com maca rosé e prateleiras iluminadas-->
+        <figcaption>A sala de procedimentos, no Portão.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-peel{padding-block:var(--sp-section)}
+.blk-peel__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-peel__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-peel__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-peel__lead{margin:var(--sp-3) 0 0;font-size:1.15rem;line-height:1.6;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-peel__cartoes{display:grid;gap:var(--sp-3)}
+.blk-peel__cartao{position:relative;overflow:hidden;padding:var(--sp-4);border-radius:var(--radius);background:color-mix(in srgb,var(--pulse) 9%,var(--bg));border:1px solid color-mix(in srgb,var(--brand) 18%,transparent)}
+.blk-peel__icone{display:inline-flex;width:2.6rem;height:2.6rem;align-items:center;justify-content:center;border-radius:50%;background:var(--bg);color:var(--brand);border:1px solid color-mix(in srgb,var(--brand) 25%,transparent)}
+.blk-peel__icone svg{width:1.3rem;height:1.3rem}
+.blk-peel__cartao h3{margin:var(--sp-2) 0 var(--sp-2);font-family:var(--f-display);font-size:1.7rem;font-weight:400;color:var(--ink)}
+.blk-peel__cartao ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem;position:relative;z-index:1}
+.blk-peel__cartao li{padding:.35rem .8rem;border-radius:99px;font-size:.95rem;background:var(--bg);color:var(--ink);border:1px solid color-mix(in srgb,var(--brand) 22%,transparent)}
+.blk-peel__motivo{position:absolute;right:-1.5rem;bottom:-1.5rem;width:9rem;opacity:.35;color:var(--brand);pointer-events:none}
+.blk-peel__motivo svg{width:100%;height:auto}
+.blk-peel__foto{margin:var(--sp-4) 0 0}
+.blk-peel__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius)}
+.blk-peel__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-label);letter-spacing:.04em;color:color-mix(in srgb,var(--ink) 60%,transparent)}
+@media (min-width:900px){
+  .blk-peel__corpo{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:4rem;align-items:center}
+  .blk-peel__foto{margin:0}
+}
+</style>

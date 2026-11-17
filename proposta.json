@@ -1,0 +1,381 @@
+{
+  "slug": "espaco-lindyce",
+  "negocio": {
+    "nome": "Clínica Espaço Lindyce",
+    "logo": "brand/logo.png",
+    "whatsapp": "5541991037923",
+    "telefone": "(41) 99103-7923",
+    "funcionamento": {
+      "seg": "08:00-20:00",
+      "ter": "08:00-20:00",
+      "qua": "08:00-20:00",
+      "qui": "08:00-20:00",
+      "sex": "08:00-20:00",
+      "sab": "08:00-17:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Portão · Curitiba",
+        "endereco": "Av. República Argentina, 2524, loja 2 (Galeria Next Home) – Portão, Curitiba – PR, 80610-260",
+        "telefone": "(41) 99103-7923",
+        "horario": "Segunda a sexta, 8h às 20h · Sábado, 8h às 17h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#7A6530",
+    "brand2": "#5C4B22",
+    "ink": "#221D16",
+    "bg": "#FDFBF7",
+    "pulse": "#C9AD62",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Marcellus",
+    "fontBody": "Open Sans",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Lindyce Peel®",
+            "href": "#lindyce-peel"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#avaliacoes"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética facial e corporal · Portão, Curitiba",
+        "h1": "Estética com resultado que parece seu",
+        "lead": "Rosto, corpo e depilação a laser numa clínica de mulheres no Portão. A avaliação começa pelo que você quer mudar e para no que de fato precisa.",
+        "cta": "Marcar avaliação pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/f03.jpg",
+        "imagemAlt": "Consultório da Dra. Tammy Barreiros no Espaço Lindyce, com mesa, poltronas e certificados na parede",
+        "tarja": [
+          "4,9 no Google, 204 avaliações",
+          "Empresa de empreendedoras",
+          "Aberto até as 20h, de segunda a sexta",
+          "Sábado das 8h às 17h",
+          "Lindyce Peel®, protocolo próprio"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Preenchimento MD Codes",
+          "Bioestimuladores",
+          "Fios de PDO",
+          "Lindyce Peel®",
+          "Depilação a laser",
+          "Bumbum Plus®",
+          "Terapia capilar"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "O jeito da casa",
+        "texto": [
+          "Aqui ninguém sai com o rosto de outra pessoa. O plano de cada paciente parte da idade, da pele e da rotina dela, e o que não é necessário não entra no orçamento.",
+          "É por isso que tanta gente traz a mãe, a irmã e a amiga na consulta seguinte."
+        ],
+        "imagem": "midia/f01.jpg",
+        "imagemAlt": "Recepção do Espaço Lindyce, com balcão de mármore, lustre de cristal e o logo dourado na parede"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "São 15 tratamentos faciais e 16 corporais no cardápio. Estes são os mais procurados.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Relaxa a musculatura que forma as rugas de expressão. Também na versão baby botox, com dose menor para quem quer prevenir a partir dos 25, e microtox, superdiluída para melasma e poros.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento MD Codes",
+            "descricao": "Ácido hialurônico aplicado em pontos de sustentação do rosto, como olheira, malar, mandíbula, queixo e lábios, para devolver volume e contorno sem exagero.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Bioestimuladores de colágeno",
+            "descricao": "Estimulam a pele a produzir colágeno novo e tratam a flacidez aos poucos, no rosto ou no corpo.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Fios de PDO",
+            "descricao": "Fios absorvíveis que sustentam a pele do rosto e do pescoço em flacidez leve a moderada.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Depilação a laser",
+            "descricao": "Laser de diodo que atinge o pelo até o bulbo. Precisa de algumas sessões, porque nem todo pelo está na mesma fase de crescimento.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Bumbum Plus®",
+            "descricao": "Três sessões de bioestimulador associado à radiofrequência para firmeza e celulite no glúteo.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Terapia capilar",
+            "descricao": "Ativos injetáveis e eletroterapia para queda de cabelo e calvície.",
+            "icone": "folha"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/peel.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Quatro meses depois da toxina, a conversa é esta",
+        "lead": "A paciente pergunta, a recepção olha a ficha e já oferece o horário. Do primeiro oi à volta para reaplicar, tudo por mensagem.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Espaço Lindyce",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Fiz botox aí em julho. Já está na hora de reaplicar?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi, Camila! Sua última aplicação foi em 10/07. O efeito costuma durar de 4 a 6 meses, então já é um bom momento para reavaliar."
+          },
+          {
+            "de": "paciente",
+            "texto": "Tem horário no sábado?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem, sim. Sábado às 10h com a Dra. Tammy, pode ser?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Perfeito, pode marcar!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O Espaço Lindyce em números",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "204",
+            "rotulo": "avaliações de pacientes",
+            "contar": 204
+          },
+          {
+            "valor": "15",
+            "rotulo": "tratamentos faciais",
+            "contar": 15
+          },
+          {
+            "valor": "16",
+            "rotulo": "tratamentos corporais",
+            "contar": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Quem atende, e onde",
+        "lead": "A Dra. Tammy Barreiros conduz os procedimentos injetáveis. As salas ficam na Galeria Next Home, no Portão.",
+        "itens": [
+          {
+            "imagem": "midia/tammy.jpg",
+            "legenda": "Dra. Tammy Barreiros, estética avançada"
+          },
+          {
+            "imagem": "midia/f06.jpg",
+            "legenda": "O consultório da Dra. Tammy"
+          },
+          {
+            "imagem": "midia/f05.jpg",
+            "legenda": "Sala de atendimento"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/avaliacoes.html"
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Nas palavras de quem já foi",
+        "itens": [
+          {
+            "texto": "Eles sempre respeitam a minha realidade, minhas características e minha idade, sem criar expectativas irreais.",
+            "autor": "Regiani",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Foi o único preenchimento que fiz depois de passar por muitas clínicas que realmente durou.",
+            "autor": "Luana",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Ficou exatamente como eu queria: natural, bem desenhado e valorizando meus traços.",
+            "autor": "Talita",
+            "contexto": "Preenchimento labial · Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Do primeiro contato ao retorno.",
+        "itens": [
+          {
+            "titulo": "Conversa pelo WhatsApp",
+            "texto": "Você conta o que quer tratar e escolhe o horário, inclusive à noite ou no sábado.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "A profissional olha pele, rosto e histórico e explica o que faz sentido para você, e o que não faz.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Procedimento",
+            "texto": "Cada etapa explicada antes de acontecer, numa sala preparada para isso.",
+            "icone": "seringa"
+          },
+          {
+            "titulo": "Retorno",
+            "texto": "Revisão do resultado e a data certa para a próxima sessão ou reaplicação.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Equipamentos",
+        "itens": [
+          {
+            "nome": "Laser de diodo",
+            "detalhe": "Depilação a laser",
+            "icone": "laser"
+          },
+          {
+            "nome": "Radiofrequência",
+            "detalhe": "Flacidez no rosto e no corpo",
+            "icone": "pele"
+          },
+          {
+            "nome": "Ultrassom",
+            "detalhe": "Lipocavitação e hidrolipoclasia",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Endermoterapia",
+            "detalhe": "Sucção e rolamento para celulite",
+            "icone": "mao"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas frequentes",
+        "itens": [
+          {
+            "p": "Quanto tempo dura a toxina botulínica?",
+            "r": "Em média de 4 a 6 meses, variando com a dose, a região e o organismo de cada paciente. Na avaliação a profissional já indica quando voltar."
+          },
+          {
+            "p": "O resultado fica artificial?",
+            "r": "O plano é feito para o seu rosto e a sua idade. Existem opções com dose menor, como o baby botox, para quem quer um efeito discreto."
+          },
+          {
+            "p": "Quantas sessões de depilação a laser são necessárias?",
+            "r": "Mais de uma, sempre: o laser age no pelo em fase de crescimento, e cada região tem pelos em fases diferentes. O número de sessões é definido na avaliação."
+          },
+          {
+            "p": "Vocês atendem à noite e no sábado?",
+            "r": "Sim. De segunda a sexta até as 20h e aos sábados das 8h às 17h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Quer saber o que faz sentido para o seu rosto?",
+        "lead": "Mande uma mensagem e marque sua avaliação no Portão.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de paciente para paciente. Procedimentos indicados após avaliação individual."
+      }
+    }
+  ]
+}
